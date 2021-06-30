@@ -7,13 +7,3 @@ Feature:
     * json jsonBody = originalString
     * string convertedString = jsonBody
     * match originalString == convertedString
-
-
-
-  Scenario: foo1
-
-    * string originalString = '{"tango":"Alice","foxtrot":"0.0.0.0","sierra":"Bob"}'
-
-    * json jsonBody = originalString
-    * string convertedString = jsonBody
-    * match originalString == convertedString
