@@ -15,7 +15,7 @@ Feature:
     Then status 200
 
     * string responseString = response
-    * match responseString = '{"tango":"Alice","foxtrot":"0.0.0.0","sierra":"Bob"}'
+    * match responseString == '{"tango":"Alice","foxtrot":"0.0.0.0","sierra":"Bob"}'
 
     * string payloadString = payload
     * match payloadString == originalString
