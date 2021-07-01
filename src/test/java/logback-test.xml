@@ -15,7 +15,7 @@
     </appender>
 
     <!-- karate debug logs a bit noisy -->
-    <logger name="com.intuit.karate" level="INFO"/>
+    <logger name="com.intuit.karate" level="DEBUG"/>
 
     <!-- debug logs a bit noisy and can't suppress c.j.j.* entries for evaluate variables -->
     <root level="INFO">
